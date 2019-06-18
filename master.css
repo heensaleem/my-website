@@ -3,13 +3,29 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.header {
+    background: url(../my-website/images/full-stack.jpeg) no-repeat center center fixed ;
+     background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
 html {
-    background: url(../my-website/images/full-stack.jpeg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -moz-background-size:  cover;
-    background-size: cover; 
     font-family: "poppins", sans-serif;
+}
+.zaikaImage img {
+    padding:50px;
+    width: 500px;
+    height: 500px;
+}
+.about {
+    padding: 80px;
+    text-align: center
+}
+.ptags {
+    padding:50px;
+}
+.centerh3 {
+    text-align: center
 }
 .prof-box {
    width: 400px;
